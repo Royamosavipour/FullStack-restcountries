@@ -10,6 +10,7 @@ function Country({ data: { name, capital, population, flags, languages } }) {
 
 
 
+
   useEffect(() => {
     if (capital) {
       axios
